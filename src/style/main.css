@@ -1,0 +1,640 @@
+.imageSliderButton {
+    color: #000 !important;
+    font-weight: bold !important;
+    background-color: #ffffff00 !important;
+    border: solid 1px #000 !important;
+    margin-bottom: 5rem !important;
+    padding: 0.7rem 11rem 0.7rem 11rem !important;
+    transition: transform 0.3s ease-out;
+}
+
+.imageSliderButton:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.carouselsBox {
+    margin-top: 90px;
+    padding: 30px;
+}
+
+.ImageSliderImage {
+    max-width: 1300px;
+    border-radius: 3px;
+}
+
+.titleImageSlider{
+    font-size: 1.5rem;
+}
+
+.paragraphImageSlider {
+    margin-bottom: 9rem !important;
+    padding-top: 1rem;
+    /* text-align: right; */
+    font-size: 3rem;
+}
+
+.nav-logo {
+    width: 11svw;
+}
+
+.MuiContainer-root {
+    background-color: #fff;
+    text-shadow: none;
+    border-bottom: solid #ff7503 0.7cap;
+    max-width: 1300px !important;
+}
+
+.TypographyInMenu {
+    font-weight: 700 !important;
+    letter-spacing: 3rem !important;
+    color: ininherit !important;
+    text-decoration: none !important;
+}
+
+.navButton {
+    color: #000 !important;
+    display: block !important;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    padding: 15px !important;
+}
+
+.navButton:hover {
+    color: #E95F20 !important;
+}
+
+.MuiAppBar-root {
+    background-color: #fff !important;
+    /* height: 94px; */
+    box-shadow: none !important;
+}
+
+.InfoContiner {
+    display: flex;
+    width: 1300px;
+    height: 370px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.MuiCard-root {
+    box-shadow: none !important;
+}
+
+/* .MuiTypography-root {
+    margin-top: 2rem !important;
+} */
+
+.titleInfo {
+    margin-top: 2rem !important;
+}
+
+.iconInfo {
+    color: #ff7503;
+    height: 5rem !important;
+    width: 5rem !important;
+}
+
+.textInfo {
+    font-size: 1.2rem !important;
+    color: rgb(75, 72, 72);
+    direction: rtl;
+    margin: 2rem !important;
+}
+
+.paragraphInTextBox {
+    font-size: 1rem !important;
+    width: 40rem;
+
+}
+
+.DetailsBoxItem:first-child {
+    text-align: center !important;
+}
+
+.titleInDetailsBox {
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.textInDetailsBox {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #ff7503;
+}
+
+.buttonInDetailsBox {
+    margin-top: 2rem !important;
+}
+
+.aboutCardParent {
+    background-image: url("../image/CarouselImage.jpg");
+    background-color: #000 !important;
+    height: 500px;
+    width: 24.3rem;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: color 0.3s;
+}
+
+.aboutCardParent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #ff7503;
+    opacity: 0.8;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-out;
+}
+
+.aboutCardParent:hover .boxParagraphInAbout .overlayParagraphInAbout {
+    color: white;
+    height: 100%;
+}
+
+.aboutCardParent:hover::before {
+    transform: scaleX(1);
+}
+
+.paragraphHidenInAbout {
+    box-sizing: border-box;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-align: right;
+}
+
+.FontSizeAboutCard {
+    font-size: 2rem;
+}
+
+.boxParagraphInAbout {
+    position: relative;
+    height: 20rem;
+}
+
+.overlayParagraphInAbout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.aboutCardcontainer {
+    width: 1300px;
+}
+
+.mtMoreTransition {
+    margin-top: 65px;
+    font-size: 1rem;
+}
+
+.aboutCardcbox {
+    color: #fff;
+    direction: rtl;
+}
+
+.informationParent {
+    margin-top: 70px;
+    width: 1300px;
+    padding-right: 700px;
+    margin-bottom: 7rem;
+    /* padding-left: 700px; */
+    /* direction: rtl; */
+}
+
+.imageIninformation {
+    /* margin-right: 6rem */
+    margin-left: 6rem
+}
+
+.typographyInInformation {
+    /* margin-right: 5rem; */
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+
+.typographyInformation {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.informationBoxButton {
+    width: 1300px !important;
+}
+
+.buttonInInformation {
+    /* margin-right: 6rem !important; */
+    margin-left: 6rem !important;
+    margin-top: 4rem !important;
+}
+
+.titleTabInDetails {
+    width: 18rem;
+    color: rgba(255, 0, 0, 0) !important;
+}
+
+.MuiTabs-indicator {
+    background-color: #ff7503 !important;
+}
+
+.compartmentParent {
+    display: flex;
+    width: 750px;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    padding-right: 3rem;
+    /* direction: rtl; */
+}
+
+.compartmentHeader {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.compartmentText {
+    color: rgb(75, 72, 72);
+    font-size: 1.2rem;
+    margin-bottom: 3.5rem;
+}
+
+.compartmentP {
+    color: rgb(75, 72, 72);
+    margin-top: 2rem;
+    margin-bottom: 3px;
+    font-size: 1rem;
+}
+
+.compartmentNumber {
+    color: #000;
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
+}
+
+.buttonInCompartment {
+    margin-top: 3rem !important;
+}
+
+.DetailsCardParent {
+    margin: 7rem 0rem 3rem 0rem !important;
+}
+
+.footerBox {
+    width: 100%;
+    height: 34rem;
+    background-color: #000;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.MuiTableCell-root {
+    color: #fff !important;
+    border-bottom: none !important;
+    justify-content: right !important;
+    direction: rtl !important;
+}
+
+.tableInFooter {
+    border-bottom: solid 2px #fff;
+    margin-bottom: 1.5rem;
+}
+
+.lineHeight{
+    line-height:  5px !important;
+}
+
+.socialInFooter {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.socialIconInFooter {
+    color: #fff;
+    margin-bottom: 2rem;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.linkInFooter {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.bottomFooterBox {
+    /* height: 2rem; */
+}
+
+.logoFooter {
+    margin-left: 57rem;
+}
+
+.CompartmentImagesContainer {
+    margin: 00px 0 0 200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imageCompartment {
+    padding: 5px;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.imageCompartment:hover {
+    width: 38.9%;
+}
+
+.CompartmentImagescolumn {
+    display: inline;
+}
+
+.CompartmentImagesContainer {
+    max-width: 750px;
+    display: flex !important;
+    justify-content: right;
+
+}
+
+.CompartmentImagesParent {
+    margin-right: -661.5px;
+    margin-top: 2.5rem;
+}
+
+.imageInService {
+    width: 1300px;
+    border-radius: 3px;
+}
+
+.imageBoxInService {
+    margin-top: 120px;
+    margin-bottom: 7rem;
+}
+
+.imageContainerInService {
+    margin-bottom: 2rem !important;
+}
+
+.tableInService {
+    width: 1300px;
+    direction: rtl;
+    display: inline-block !important;
+    position: relative !important;
+}
+
+.linkInService {
+    text-decoration: none;
+    color: #000;
+    display: inline-block !important;
+    position: relative !important;
+    margin-left: 3px;
+}
+
+.infoInAfterSaleService {
+    display: flex !important;
+    justify-content: right !important;
+    width: 1300px;
+    height: 19rem;
+}
+
+.titleInfoInService {
+    color: #000;
+    border-bottom: solid 1px #000;
+    padding: 1rem 1rem 1rem 20rem;
+    direction: rtl;
+    font-size: 2rem;
+}
+
+.paragraphInfoInService {
+    direction: rtl;
+    font-size: 1.2rem;
+}
+
+.paragraphInfoInServiceBox {
+    padding: 50px;
+    width: 50%;
+}
+
+.titleInfoInServiceBox {
+    width: 50%;
+}
+
+.footerImagecolumn {
+    display: inline-flex;
+    justify-content: center !important;
+}
+
+.footerImageContainer {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.imageFooterInService {
+    width: 27.5rem;
+    padding: 10px;
+    margin-bottom: 8rem;
+}
+
+.detailsContainerInArticle {
+    padding-left: 33rem;
+    margin-left: 2.5rem;
+    max-width: 1300px;
+    direction: rtl;
+    /* border-left: 1px solid #000; */
+}
+
+.buttonInArticles {
+    margin-right: 7px;
+}
+
+.marginButtonDetailsCard {
+    margin-bottom: 10rem;
+    margin-top: 6rem;
+}
+
+.AboutCardInAboutArticleBox {
+    direction: rtl;
+    width: 1010px;
+    padding-left: 18rem !important;
+    padding-right: 24px !important;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+    border-left: solid 1px #000;
+}
+
+.boxRight {
+    display: flex;
+    justify-content: right;
+}
+
+.ContainerInDownload {
+    direction: rtl;
+    width: 1300px;
+    display: flex;
+    justify-content: right;
+    padding-right: 24px;
+    margin-bottom: 2rem !important;
+}
+
+.boxListInDownload {
+    background-color: #fff;
+    border-right: solid 1px #dfdfdf;
+    border-left: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.listInDownload {
+    width: 1000px;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    box-shadow: none !important;
+    background-color: #fcf6f1 !important;
+}
+
+.listInProducts {
+    width: 777px;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    box-shadow: none !important;
+    background-color: #fcf6f1 !important;
+}
+
+.ImageSizeProducts {
+    height: 12rem;
+}
+
+.listBoxInDownload:hover {
+    background-color: #ff7503 !important;
+}
+
+.cardsBox {
+    width: 273px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 6rem 2rem 1rem 2rem !important;
+    transition: 0.5s ease;
+    background-image: linear-gradient(rgba(221, 99, 0, 0.712), rgba(255, 163, 25, 0.705));
+}
+
+.cardsBox:hover {
+    background-color: rgba(248, 162, 33, 0.938);
+}
+
+.firstCardInProducts {
+    background-image: linear-gradient(rgba(221, 99, 0, 0.712), rgba(255, 163, 25, 0.705));
+}
+
+.firstCardInProducts:hover {
+    background-color: rgba(248, 162, 33, 0.938);
+}
+
+.containerCardsProducts {
+    width: 1300px;
+    margin-bottom: 10rem;
+    display: flex !important;
+    justify-content: right !important;
+}
+
+.subjectInCardproducts {
+    margin-right: 33px;
+    direction: rtl;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.marginButtonAbout {
+    margin-bottom: 8rem;
+}
+
+.drawerDir {
+    text-align: right;
+}
+
+.paragraphInArticle {
+    color: #000 !important;
+    margin-bottom: 1.5rem !important;
+    font-size: large !important;
+}
+
+.FontParagraphArticle{
+    font-size: 1.2rem;
+}
+
+.titleFirstProduct {
+    margin: 0px 23px 5rem;
+    font-size:x-large;
+    color: #000;
+    direction: rtl;
+}
+
+.ImageColorInProuduct {
+    width: 600Px;
+    height: 420Px;
+    border-radius: 3px;
+    margin: 0rem 1.5rem 1rem 2rem !important;
+    transition: 0.5s ease;
+}
+
+.BoxInCardproducts {
+    margin-bottom: 12rem;
+    display: flex !important;
+    justify-content: right !important;
+}
+
+.TitleInCardproducts {
+    margin-right: 23px;
+    direction: rtl;
+    font-size: xx-large;
+}
+
+.BoxInCardsproducts {
+    width: 1350px;
+    margin-bottom: 12rem;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.ImageColorInProuducts {
+    width: 600Px;
+    height: 420Px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.ImageColorInProuductsMarginLeft {
+    margin: 8rem 0px 1rem 50px !important;
+}
+
+.ImageColorInProuductsMarginRight {
+    margin: 8rem 50px 1rem 0px !important;
+}
+
+.TitleInCardsproducts {
+    direction: rtl;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
