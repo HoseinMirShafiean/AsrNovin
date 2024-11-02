@@ -38,11 +38,13 @@
     width: 11svw;
 }
 
+/* ff7503 */
+
 .MuiContainer-root {
     background-color: #fff;
     text-shadow: none;
-    border-bottom: solid #ff7503 0.7cap;
-    max-width: 97% !important;
+    border-bottom: solid #f36d00 0.7cap;
+    max-width: 100% !important;
 }
 
 .TypographyInMenu {
@@ -93,7 +95,7 @@
 }
 
 .iconInfo {
-    color: #ff7503;
+    color: #f36d00;
     height: 5rem !important;
     width: 5rem !important;
 }
@@ -125,7 +127,7 @@
 .textInDetailsBox {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
-    color: #ff7503;
+    color: #f36d00;
 }
 
 .buttonInDetailsBox {
@@ -154,7 +156,7 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: #ff7503;
+    background: #f36d00;
     opacity: 0.8;
     transform: scaleX(0);
     transform-origin: 0 50%;
@@ -252,7 +254,7 @@
 }
 
 .MuiTabs-indicator {
-    background-color: #ff7503 !important;
+    background-color: #f36d00 !important;
 }
 
 .compartmentParent {
@@ -527,7 +529,7 @@
 }
 
 .listBoxInDownload:hover {
-    background-color: #ff7503 !important;
+    background-color: #f36d00 !important;
 }
 
 .cardsBox {

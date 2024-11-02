@@ -5,7 +5,6 @@ import { Box, Grid, Table, TableBody, TableCell, TableContainer, TableHead, Tabl
 import siteLogo from '../../image/siteLogo.jpg';
 
 
-
 function CreateData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein };
 }
