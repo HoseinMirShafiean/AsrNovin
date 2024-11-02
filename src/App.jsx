@@ -30,14 +30,3 @@ function App() {
   );
 }
 export default App;
-
-{/* 
-          <Route path="/productOne" element={<ProductOne />} />
-          <Route path="/productTwo" element={<ProductTwo />} />
-          <Route path="/productThree" element={<ProductThree />} />
-          <Route path="/productFour" element={<ProductFour />} />
-          <Route path="/productFive" element={<ProductFive />} />
-          <Route path="/productSix" element={<ProductSix />} />
-          <Route path="/productSeven" element={<ProductSeven />} />
-          <Route path="/productEight" element={<ProductEight />} />
-          <Route path="/productNine" element={<ProductNine />} /> */}
