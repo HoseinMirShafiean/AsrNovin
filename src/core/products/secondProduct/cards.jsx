@@ -8,7 +8,7 @@ export default function Cards() {
     return (
         <Grid container className="BoxInCardproducts">
             <Grid item>
-                <Box className="ImageColorInProuduct firstCardInProducts"
+                <Box className="ImageColorInProuduct firstCardInProducts cursor"
                     onClick={() => navigate('پکیج کامل آسانسور')}>
                 </Box>
                 <h3 className="TitleInCardproducts">پکیج کامل آسانسور</h3>

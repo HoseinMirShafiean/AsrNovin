@@ -61,7 +61,7 @@ const ItemCard = (props) => {
     const { item } = props
     return (
         <Grid item className={item.className}>
-            <Box className="cardsBox borderRadius"
+            <Box className="cardsBox borderRadius cursor"
                 onClick={() => {
                     handleClickCards(item.route);
                 }} >

@@ -57,7 +57,7 @@ export default function Home() {
       <Grid item xs={12}>
         <Footer />
       </Grid>
-      <Outlet/>
+      <Outlet />
     </Grid>
   )
 }

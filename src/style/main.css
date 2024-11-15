@@ -264,7 +264,7 @@
     margin-top: 3rem;
     margin-left: 1rem;
     padding-right: 3rem;
-    /* direction: rtl; */
+    direction: rtl;
 }
 
 .compartmentHeader {
@@ -303,7 +303,7 @@
 
 .footerBox {
     width: 100%;
-    height: 17rem;
+    height: 20rem;
     background-color: #000;
     padding: 2rem 3rem 2rem 3rem;
 }
@@ -320,16 +320,26 @@
 }
 
 .socialInFooter {
-    margin-top: 3rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;   
     margin-bottom: 1rem;
     color: #fff;
 }
 
 .socialIconInFooter {
     color: #fff;
-    margin-bottom: 2rem;
     width: 2rem !important;
     height: 2rem !important;
+}
+
+.widthSocial{
+    width: 100%;
+}
+
+.widthSocialBorder{
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom:solid 1px #f36d00;
 }
 
 .linkInFooter {
@@ -339,7 +349,7 @@
 }
 
 .bottomFooterBox {
-    /* height: 2rem; */
+    margin-top: 2rem;
 }
 
 .logoFooter {
@@ -347,10 +357,9 @@
 }
 
 .CompartmentImagesContainer {
-    margin: 00px 0 0 200px;
+    margin: 0 0 0 200px;
     height: 500px;
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -442,19 +451,30 @@
 }
 
 .footerImagecolumn {
-    display: inline-flex;
     justify-content: center !important;
+    display: inline;
 }
 
 .footerImageContainer {
     display: flex !important;
     justify-content: center !important;
+    margin: 0 0 4rem 1rem;
+    height: 500px;
+    width: 85%;
+    gap: 10px;
 }
 
 .imageFooterInService {
-    width: 27.5rem;
-    padding: 10px;
-    margin-bottom: 8rem;
+    padding: 15px;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all ease-in-out 0.5s;
+}
+
+.imageFooterInService:hover{
+    width: 40%;
 }
 
 .detailsContainerInArticle {
@@ -462,7 +482,6 @@
     margin-left: 2.5rem;
     max-width: 1300px;
     direction: rtl;
-    /* border-left: 1px solid #000; */
 }
 
 .buttonInArticles {
@@ -521,6 +540,7 @@
 
 .ImageSizeProducts {
     height: 12rem;
+    justify-content: center;
 }
 
 .listBoxInDownload:hover {
@@ -637,11 +657,11 @@
 }
 
 .rowFooter {
-    display: inline;
     padding: 1rem;
     font-size: 1rem;
     color: #fff;
 }
 
-.rowFooterBox {
+.rowFooterBox{
+    width: 100%;
 }

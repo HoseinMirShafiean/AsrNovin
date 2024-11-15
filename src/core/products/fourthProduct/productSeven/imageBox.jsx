@@ -6,7 +6,7 @@ import ArticleImage from "../../../../image/ArticleImage.png";
 
 export default function ImageBox() {
   const navigate = useNavigate();
-  
+
   return (
     <Grid container className='CenterItem imageBoxInService'  >
       <Grid item className='imageContainerInService'>
@@ -18,6 +18,7 @@ export default function ImageBox() {
             خانه
           </Link>
           <Link
+            className='cursor'
             underline="hover"
             color="inherit"
             onClick={() => navigate('/products')}
@@ -29,7 +30,7 @@ export default function ImageBox() {
             color="inherit"
             onClick={() => navigate('تابلو فرمان آسانسورهای هیدرولیک')}
           >
-           تابلو فرمان آسانسورهای هیدرولیک
+            تابلو فرمان آسانسورهای هیدرولیک
           </Link>
           <Typography sx={{ color: 'text.primary' }}>تابلو فرمان هيدروليک</Typography>
         </Breadcrumbs>

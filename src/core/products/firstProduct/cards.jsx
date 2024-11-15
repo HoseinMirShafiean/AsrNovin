@@ -7,7 +7,7 @@ export default function Cards() {
     return (
         <Grid container className="BoxInCardproducts">
             <Grid item>
-                <Box className="ImageColorInProuduct firstCardInProducts"
+                <Box className="ImageColorInProuduct firstCardInProducts cursor"
                   onClick={() => navigate('نجات اضطراری آسانسور UPS')}>
                     </Box>
                 <h3 className="TitleInCardproducts">نجات اضطراری آسانسور UPS</h3>

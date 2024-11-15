@@ -1,7 +1,7 @@
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { Box, Grid, Table, TableContainer } from "@mui/material";
+import { Grid } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import siteLogo from '../../image/siteLogo.jpg';
 import { footer } from '../DTO/footer';
@@ -52,34 +52,34 @@ function Footer() {
     };
 
     return (
-        <Box className="footerBox">
-            <TableContainer className="tableInFooter">
-                <Table aria-label="simple table">
-                    {dot.map((item, index) => (
-                        // <Grid container className='rowFooterBox'>
-                        <h6
-                            className='rowFooter'
-                            onClick={() => {
-                                handelOnClick(item.route)
-                            }}>
-                            {item.title}
-                        </h6>
-                        // </Grid>
-                    ))}
-                    <h5 className="socialInFooter">
-                        Find us on Social Media
-                    </h5>
-                    <InstagramIcon className="socialIconInFooter" />
-                    <TelegramIcon className="socialIconInFooter" />
-                    <WhatsAppIcon className="socialIconInFooter" />
-                </Table>
-            </TableContainer>
+        <Grid className="footerBox">
+            <Grid className='rowFooterBox CenterItem'>
+                {dot.map((item, index) => (
+                    <h6
+                        className='rowFooter cursor'
+                        onClick={() => {
+                            handelOnClick(item.route)
+                        }}>
+                        {item.title}
+                    </h6>
+                ))}
+            </Grid>
+            <Grid className='CenterItem widthSocial'>
+                <h5 className="socialInFooter CenterItem">
+                    شبکه های اجتماعی
+                </h5>
+            </Grid>
+            <Grid className='CenterItem widthSocialBorder'>
+                <InstagramIcon className="socialIconInFooter" />
+                <TelegramIcon className="socialIconInFooter" />
+                <WhatsAppIcon className="socialIconInFooter" />
+            </Grid>
             <Grid container className="bottomFooterBox">
                 <a className="linkInFooter" href="/">Imprint</a>
                 <a className="linkInFooter" href="/">Data privacy</a>
                 <a className="logoFooter" href="/"><img className='nav-logo' src={siteLogo} alt="Logo" /></a>
             </Grid>
-        </Box>
+        </Grid>
     );
 };
 

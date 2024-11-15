@@ -59,7 +59,7 @@ function NavBar() {
                     </Typography>
                     <Box sx={{ flexGrow: 1, direction: 'rtl', display: { xs: 'none', md: 'flex' } }}>
                         {PAGES?.map((item) => (
-                            <Button className='navButton'
+                            <Button className='navButton cursor'
                                 key={item.name}
                                 onClick={() => {
                                     handleCloseNavMenu(item.route);

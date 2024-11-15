@@ -42,7 +42,7 @@ export default function AboutCard() {
 const ItemAboutCard = (props) => {
     const { item } = props;
     return (
-        <Card className='aboutCardParent' >
+        <Card className='aboutCardParent cursor' >
             <CardContent className='aboutCardcbox'>
                 <h6 className='FontSizeAboutCard'>{item.number}</h6>
                 <h1 className='FontSizeAboutCard'>{item.title}</h1>

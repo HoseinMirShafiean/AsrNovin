@@ -4,6 +4,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import '../src/style/component.css';
 import '../src/style/main.css';
 import LoadingPage from './component/loadingPage';
+import DetailsCard from './core/mainPage/detailsCard';
 import AboutPage from './core/page/about';
 import AfterSaleservicePage from './core/page/afterSaleservice';
 import ArticlesPage from './core/page/articles';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="products/*" element={<ProductPage />} />
           <Route path="about/*" element={<AboutPage />} />
+          <Route path="contact/*" element={<DetailsCard />} />
           <Route path="articles/*" element={<ArticlesPage />} />
           <Route path="download/*" element={<DownloadPage />} />
           <Route path="afterSaleService/*" element={<AfterSaleservicePage />} />

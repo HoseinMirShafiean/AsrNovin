@@ -18,6 +18,7 @@ export default function ImageBox() {
             خانه
           </Link>
           <Link
+            className='cursor'
             underline="hover"
             color="inherit"
             onClick={() => navigate('/articles')}

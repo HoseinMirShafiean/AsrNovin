@@ -80,3 +80,7 @@
 .btn.hover-slide-right:hover::before {
    width: 100%;
 }
+
+.cursor{
+   cursor: pointer !important;
+}

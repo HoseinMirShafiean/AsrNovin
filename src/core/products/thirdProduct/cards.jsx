@@ -51,7 +51,7 @@ const ItemCard = (props) => {
 
     return (
         <Grid item className={item.className}>
-            <Box className="ImageColorInProuducts"
+            <Box className="ImageColorInProuducts cursor"
             onClick={() => {
                 handeClick(item.route);
             }} >
