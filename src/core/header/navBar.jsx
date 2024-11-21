@@ -42,9 +42,7 @@ function NavBar() {
                         }}
                     >
                     </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        <DrawerNavBar />
-                    </Box>
+
                     <a href="/"><img className='nav-logo' src={siteLogo} alt="Logo" /></a>
                     <Typography
                         variant="h5"
@@ -69,6 +67,9 @@ function NavBar() {
                                 {item.name}
                             </Button>
                         ))}
+                    </Box>
+                    <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+                        <DrawerNavBar className="rightDrawer"/>
                     </Box>
                 </Toolbar>
             </Container>

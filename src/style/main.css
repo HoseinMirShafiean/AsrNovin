@@ -588,6 +588,16 @@
 
 .drawerDir {
     text-align: right;
+    margin-right: 1rem;
+}
+
+.minIcon{
+    min-width: 0 !important;
+}
+
+.rightDrawer{
+    display: flex !important;
+    justify-content: right !important;
 }
 
 .paragraphInArticle {

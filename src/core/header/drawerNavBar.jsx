@@ -59,12 +59,12 @@ export default function DrawerNavBar(props) {
             }}
             disablePadding>
             <ListItemButton>
-              <ListItemIcon>
-                {index % 4 === 0 ? <AutoStoriesIcon /> :
-                index % 3 === 0 ? <SupportAgentIcon /> :
-                index % 2 === 0 ?  <ShoppingBagIcon /> : <FileDownloadIcon /> }
-              </ListItemIcon>
               <ListItemText primary={item.name} className='drawerDir' />
+              <ListItemIcon className='minIcon'>
+                {index % 4 === 0 ? <AutoStoriesIcon /> :
+                  index % 3 === 0 ? <SupportAgentIcon /> :
+                    index % 2 === 0 ? <ShoppingBagIcon /> : <FileDownloadIcon />}
+              </ListItemIcon>
             </ListItemButton>
           </ListItem>
         ))}
@@ -78,10 +78,10 @@ export default function DrawerNavBar(props) {
             }}
             disablePadding>
             <ListItemButton>
-              <ListItemIcon>
-                {index % 3 === 0 ? <InfoIcon /> : index % 2 === 0 ?  <LocalPhoneIcon />  : <HomeIcon /> }
-              </ListItemIcon>
               <ListItemText primary={item.name} className='drawerDir' />
+              <ListItemIcon className='minIcon'>
+                {index % 3 === 0 ? <InfoIcon /> : index % 2 === 0 ? <LocalPhoneIcon /> : <HomeIcon />}
+              </ListItemIcon>
             </ListItemButton>
           </ListItem>
         ))}

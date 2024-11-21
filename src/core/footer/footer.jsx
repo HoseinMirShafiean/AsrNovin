@@ -52,7 +52,7 @@ function Footer() {
     };
 
     return (
-        <Grid className="footerBox">
+        <Grid className="footerBox" sx={{ height: {xs: '100%', md: '22rem'}}} >
             <Grid className='rowFooterBox CenterItem'>
                 {dot.map((item, index) => (
                     <h6
