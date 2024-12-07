@@ -3,7 +3,8 @@ import { Card, CardContent, Grid } from '@mui/material';
 
 export default function DetailsCard() {
     return (
-        <Grid item xs={12} className='CenterItem DetailsCardParent'>
+        <Grid item
+         xs={12} className='CenterItem DetailsCardParent'>
             <Grid container justifyContent='center'>
                 <Card >
                     <CardContent className='DetailsBoxItem'>
