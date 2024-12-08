@@ -321,7 +321,7 @@
 
 .socialInFooter {
     font-size: 0.9rem;
-    margin-top: 3rem;   
+    margin-top: 3rem;
     margin-bottom: 1rem;
     color: #fff;
 }
@@ -332,14 +332,14 @@
     height: 2rem !important;
 }
 
-.widthSocial{
+.widthSocial {
     width: 100%;
 }
 
-.widthSocialBorder{
+.widthSocialBorder {
     width: 100%;
     padding-bottom: 2rem;
-    border-bottom:solid 1px #f36d00;
+    border-bottom: solid 1px #f36d00;
 }
 
 .linkInFooter {
@@ -473,7 +473,7 @@
     transition: all ease-in-out 0.5s;
 }
 
-.imageFooterInService:hover{
+.imageFooterInService:hover {
     width: 40%;
 }
 
@@ -591,11 +591,11 @@
     margin-right: 1rem;
 }
 
-.minIcon{
+.minIcon {
     min-width: 0 !important;
 }
 
-.rightDrawer{
+.rightDrawer {
     display: flex !important;
     justify-content: right !important;
 }
@@ -672,6 +672,12 @@
     color: #fff;
 }
 
-.rowFooterBox{
+.rowFooterBox {
     width: 100%;
+}
+
+.fixMap {
+    height: 400px;
+    width: 100%;
+    margin-top: 6rem;
 }

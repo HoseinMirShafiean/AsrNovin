@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'leaflet/dist/leaflet.css';
 import { Suspense } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import '../src/style/component.css';

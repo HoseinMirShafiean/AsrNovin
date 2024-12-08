@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import { Grid } from "rsuite";
 import Footer from "../../footer/footer";
 import NavBar from "../../header/navBar";
@@ -25,7 +24,6 @@ export default function FourthProduct() {
             <Grid item>
                 <Footer />
             </Grid>
-            <Outlet />
         </Grid>
     )
 }
