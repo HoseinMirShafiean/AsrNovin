@@ -53,7 +53,7 @@ export default function DrawerNavBar(props) {
     >
       <List>
         {firstList.map((item, index) => (
-          <ListItem key={item.name}
+          <ListItem key={item.id}
             onClick={() => {
               handleMenuFitstList(item.route);
             }}
@@ -72,7 +72,7 @@ export default function DrawerNavBar(props) {
       <Divider />
       <List>
         {secondList.map((item, index) => (
-          <ListItem key={item.name}
+          <ListItem key={item.id}
             onClick={() => {
               handleMenuSecondList(item.route);
             }}

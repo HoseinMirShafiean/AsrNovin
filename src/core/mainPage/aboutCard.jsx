@@ -31,7 +31,10 @@ export default function AboutCard() {
     return (
         <Grid container className='aboutCardcontainer'>
             {dto.map((item) => (
-                <Grid item className='CenterItem' md={4}>
+                <Grid item
+                    className='CenterItem'
+                    key={item.id}
+                    md={4}>
                     <ItemAboutCard item={item} />
                 </Grid>
             ))}

@@ -52,10 +52,11 @@ function Footer() {
     };
 
     return (
-        <Grid className="footerBox" sx={{ height: {xs: '100%', md: '22rem'}}} >
+        <Grid className="footerBox" sx={{ height: { xs: '100%', md: '22rem' } }} >
             <Grid className='rowFooterBox CenterItem'>
-                {dot.map((item, index) => (
+                {dot.map((item) => (
                     <h6
+                        key={item.id}
                         className='rowFooter cursor'
                         onClick={() => {
                             handelOnClick(item.route)

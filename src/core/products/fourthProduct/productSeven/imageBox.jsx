@@ -26,6 +26,7 @@ export default function ImageBox() {
             محصولات
           </Link>
           <Link
+            className='cursor'
             underline="hover"
             color="inherit"
             onClick={() => navigate('تابلو فرمان آسانسورهای هیدرولیک')}

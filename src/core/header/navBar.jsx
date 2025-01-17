@@ -5,13 +5,13 @@ import siteLogo from '../../image/siteLogo.jpg';
 import DrawerNavBar from './drawerNavBar';
 
 export const PAGES = [
-    { name: 'مقالات', route: '/articles' },
-    { name: 'مدارک فنی', route: '/download' },
-    { name: 'محصولات', route: '/products' },
-    { name: 'خدمات پس از فروش', route: '/afterSaleService' },
-    { name: 'تماس با عصرنوین', route: '/contact' },
-    { name: 'درباره ما', route: '/about' },
-    { name: 'عصرنوین', route: '/' },
+    { id: 1, name: 'مقالات', route: '/articles' },
+    { id: 2, name: 'مدارک فنی', route: '/download' },
+    { id: 3, name: 'محصولات', route: '/products' },
+    { id: 4, name: 'خدمات پس از فروش', route: '/afterSaleService' },
+    { id: 5, name: 'تماس با عصرنوین', route: '/contact' },
+    { id: 6, name: 'درباره ما', route: '/about' },
+    { id: 7, name: 'عصرنوین', route: '/' },
 ]
 
 function NavBar() {
@@ -58,7 +58,7 @@ function NavBar() {
                     <Box sx={{ flexGrow: 1, direction: 'rtl', display: { xs: 'none', md: 'flex' } }}>
                         {PAGES?.map((item) => (
                             <Button className='navButton cursor'
-                                key={item.name}
+                                key={item.id}
                                 onClick={() => {
                                     handleCloseNavMenu(item.route);
                                 }}
@@ -69,7 +69,7 @@ function NavBar() {
                         ))}
                     </Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-                        <DrawerNavBar className="rightDrawer"/>
+                        <DrawerNavBar className="rightDrawer" />
                     </Box>
                 </Toolbar>
             </Container>

@@ -35,7 +35,7 @@ export default function AboutAccordion() {
   return (
     <Grid container className='ContainerInDownload'>
       {dot.map((item) => (
-        <Grid>
+        <Grid key={item.id}>
           <ItemDownload item={item} />
         </Grid>
       ))}

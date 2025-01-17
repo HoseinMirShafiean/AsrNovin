@@ -5,19 +5,19 @@ import { aboutArticlesTwo } from '../../DTO/articles';
 export default function AboutCard() {
 
     const Paragraph = [
-        { text: aboutArticlesTwo.cards.one.text },
-        { text: aboutArticlesTwo.cards.two.text },
-        { text: aboutArticlesTwo.cards.three.text },
-        { text: aboutArticlesTwo.cards.four.text },
-        { text: aboutArticlesTwo.cards.five.text },
-        { text: aboutArticlesTwo.cards.six.text },
-        { text: aboutArticlesTwo.cards.seven.text },
-        { text: aboutArticlesTwo.cards.eight.text },
-        { text: aboutArticlesTwo.cards.nine.text },
-        { text: aboutArticlesTwo.cards.ten.text },
-        { text: aboutArticlesTwo.cards.eleven.text },
-        { text: aboutArticlesTwo.cards.twelve.text },
-        { text: aboutArticlesTwo.cards.thirteen.text },
+        { id: 1, text: aboutArticlesTwo.cards.one.text },
+        { id: 2, text: aboutArticlesTwo.cards.two.text },
+        { id: 3, text: aboutArticlesTwo.cards.three.text },
+        { id: 4, text: aboutArticlesTwo.cards.four.text },
+        { id: 5, text: aboutArticlesTwo.cards.five.text },
+        { id: 6, text: aboutArticlesTwo.cards.six.text },
+        { id: 7, text: aboutArticlesTwo.cards.seven.text },
+        { id: 8, text: aboutArticlesTwo.cards.eight.text },
+        { id: 9, text: aboutArticlesTwo.cards.nine.text },
+        { id: 10, text: aboutArticlesTwo.cards.ten.text },
+        { id: 11, text: aboutArticlesTwo.cards.eleven.text },
+        { id: 12, text: aboutArticlesTwo.cards.twelve.text },
+        { id: 13, text: aboutArticlesTwo.cards.thirteen.text },
     ]
     return (
         <Grid container className='boxRight'>
@@ -36,7 +36,7 @@ export default function AboutCard() {
                         برخی از مهمترین نکات در خصوص طراحی و ساخت استپ ها عبارتند از :
                     </Typography>
                     {Paragraph.map((item) => (
-                        <Typography className='paragraphInArticle'>
+                        <Typography key={item.id} className='paragraphInArticle'>
                             {item.text}
                         </Typography>
                     ))}

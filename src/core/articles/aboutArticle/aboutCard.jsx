@@ -5,11 +5,11 @@ import { aboutArticles } from '../../DTO/articles';
 export default function AboutCard() {
 
     const Paragraph =[
-        {text: aboutArticles.cards.one.text},
-        {text: aboutArticles.cards.two.text},
-        {text: aboutArticles.cards.three.text},
-        {text: aboutArticles.cards.four.text},
-        {text: aboutArticles.cards.five.text},
+        {id: 1, text: aboutArticles.cards.one.text},
+        {id: 2, text: aboutArticles.cards.two.text},
+        {id: 3, text: aboutArticles.cards.three.text},
+        {id: 4, text: aboutArticles.cards.four.text},
+        {id: 5, text: aboutArticles.cards.five.text},
     ]
     return (
         <Grid container className='boxRight'>
@@ -31,7 +31,7 @@ export default function AboutCard() {
                         حالا در اینجا به نکاتی قابل توجه در مورد آسانسور اشاره می‌نماییم:
                     </Typography>
                     {Paragraph.map((item) => (
-                        <Typography className='paragraphInArticle'>
+                        <Typography key={item.id} className='paragraphInArticle'>
                             {item.text}
                         </Typography>
                     ))}

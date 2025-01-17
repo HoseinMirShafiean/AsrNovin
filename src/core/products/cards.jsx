@@ -44,7 +44,7 @@ export default function Cards() {
     return (
         <Grid container className="containerCardsProducts">
             {dot?.map((item) => (
-                <Grid item key={item}>
+                <Grid item key={item.id}>
                     <ItemCard item={item} />
                 </Grid>
             ))}
