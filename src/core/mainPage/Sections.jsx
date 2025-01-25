@@ -58,7 +58,7 @@ export default function Sections() {
                 height: { xs: "343px", sm: "375px" },
               }}
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati facilis debitis voluptatibus, vero consequatur soluta fuga praesentium ipsum id saepe sit beatae aliquid. Dolore excepturi, cumque libero ex nobis quos.
+              Lorem ipsum dolor, amet consectetur adipisicing elit. Obcaecati facilis debitis voluptatibus, vero consequatur soluta fuga praesentium ipsum id saepe sit beatae aliquid. Dolore excepturi, cumque libero ex nobis quos.
             </Grid>
           </Grid>
         </Grid>
