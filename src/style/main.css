@@ -1,3 +1,4 @@
+
 .imageSliderButton {
     color: #000 !important;
     font-weight: bold !important;
@@ -11,6 +12,8 @@
 .imageSliderButton:hover {
     color: #fff !important;
     background-color: #000 !important;
+        border-radius:25px !important;
+
 }
 
 .carouselsBox {
@@ -20,7 +23,7 @@
 
 .ImageSliderImage {
     max-width: 1300px;
-    border-radius: 3px;
+    /* border-radius:25px !important; */
 }
 
 .titleImageSlider {
@@ -73,14 +76,6 @@
     box-shadow: none !important;
 }
 
-.InfoContiner {
-    display: flex;
-    width: 1300px;
-    height: 370px;
-    margin-top: 90px;
-    text-align: center;
-    margin-bottom: 70px;
-}
 
 .MuiCard-root {
     box-shadow: none !important;
@@ -388,7 +383,6 @@
 }
 
 .CompartmentImagesParent {
-    margin-right: -661.5px;
     margin-top: 2.5rem;
 }
 

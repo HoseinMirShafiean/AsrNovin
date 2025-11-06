@@ -29,11 +29,12 @@ export default function AboutCard() {
     ]
 
     return (
-        <Grid container className='aboutCardcontainer'>
+        <Grid container className='aboutCardcontainer' spacing={3}>
             {dto.map((item) => (
                 <Grid item
                     className='CenterItem'
                     key={item.id}
+                    xs={12}
                     md={4}>
                     <ItemAboutCard item={item} />
                 </Grid>
@@ -45,7 +46,20 @@ export default function AboutCard() {
 const ItemAboutCard = (props) => {
     const { item } = props;
     return (
-        <Card className='aboutCardParent cursor' >
+        <Card className='aboutCardParent cursor'       sx={{
+        borderRadius: "20px",
+        height: "100%",
+        transition: "all 0.4s ease",
+        boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
+        "&:hover": {
+          transform: "translateY(-8px)",
+          boxShadow: "0 12px 25px rgba(0,0,0,0.2)",
+        },
+        cursor: "pointer",
+        textAlign: "center",
+        p: 2,
+      }}
+>
             <CardContent className='aboutCardcbox'>
                 <h6 className='FontSizeAboutCard'>{item.number}</h6>
                 <h1 className='FontSizeAboutCard'>{item.title}</h1>
